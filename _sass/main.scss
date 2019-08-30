@@ -1,0 +1,33 @@
+body {
+    font-family: 'Livvic', sans-serif;
+    // color: #ffffff;
+    // background: #140147;
+}
+
+pre, kbd, code, samp {
+    font-family: 'Monaco', 'Consolas', 'Ubuntu mono';
+}
+
+
+.lineno {
+    background-color: azure;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+    // border-top: 1px solid black;
+    // border-bottom: 1px solid black;
+}
+
+.fixed-bottom {
+    border-top: 1px solid gold;
+    padding-top: 4px;
+}
+
+.code {
+    padding-left: 1px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    // border-right: 1px solid black;
+}

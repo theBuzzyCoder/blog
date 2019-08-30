@@ -1,0 +1,19 @@
+<header class='navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row'>
+    <div class="navbar-nav-scroll">
+        <ul class='navbar-nav bd-navbar-nav flex-row'>
+                {% for item in site.data.navigations %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{item.link}}"> {{item.name}} </a>
+                </li>
+                {% endfor %}
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" 
+                        role="button" aria-haspopup="true" aria-expanded="false">Technologies</a>
+                    <div class="dropdown-menu nav-colors">
+                        <a class="dropdown-item text-muted" href="#"> Programming </a>
+                        <a class="dropdown-item text-muted" href="#"> Software Tools </a>
+                    </div>
+                </li> -->
+            </ul>
+    </div>
+</header>

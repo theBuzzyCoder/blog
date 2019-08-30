@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="docker-nav">
+      {% include navigation.html %}
+    </div>
+    <div class="container-fluid docker-color">
+      <div class='row'>
+        <div class='col-2'>
+        </div>
+        <div class='col'>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
